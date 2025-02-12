@@ -17,9 +17,24 @@ for (let i = 0; i < products.length; i++){
         cateagorizedProduccts.electronics.push(SingleProduct.name);
         
     }
-    else if (SingleProduct.category === 'clothing') {
+     else if (SingleProduct.category === 'clothing') {
         cateagorizedProduccts.clothing.push(SingleProduct.name);
     }
+    
    
 }
+
+
+// for (const i in products) {
+//       const SingleProduct = products[i];
+//     if (SingleProduct.category === 'electronics') {
+//         cateagorizedProduccts.electronics.push(SingleProduct.name);
+        
+//     }
+//      else if (SingleProduct.category === 'clothing') {
+//         cateagorizedProduccts.clothing.push(SingleProduct.name);
+//     }
+// }
+
+
 console.log(cateagorizedProduccts);
